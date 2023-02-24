@@ -414,7 +414,7 @@ footer {
     }
 
     .image-1 {
-        content: url(/assets/desktop/image-keyboard.jpg);
+        content: url(typemaster/assets/desktop/image-keyboard.jpg);
         width: 100%;
     }
 
@@ -444,7 +444,7 @@ footer {
     }
 
     .image-2 {
-        content: url(/assets/desktop/image-phone-and-keyboard.jpg);
+        content: url(typemaster/assets/desktop/image-phone-and-keyboard.jpg);
         width: 100%;
     }
 
@@ -453,7 +453,7 @@ footer {
     }
 
     .image-3 {
-        content: url(/assets/desktop/image-glass-and-keyboard.jpg);
+        content: url(typemaster/assets/desktop/image-glass-and-keyboard.jpg);
         width: 100%;
     }
 
