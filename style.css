@@ -274,6 +274,11 @@ footer {
     display: none;
 }
 
+
+.pattern-div1, .pattern-div2 {
+    display: none;
+}
+
 /*      TABLET DESIGN       */
 @media screen and (min-width: 776px) and (max-width: 996px) {
     .header-btn {
@@ -434,6 +439,8 @@ footer {
         display: block;
         margin-right: -10vw;
         margin-left: 5vw;
+        align-self: flex-start;
+        margin-top: 5%;
     }
 
     body {
@@ -471,6 +478,9 @@ footer {
 
 
     .pattern-div2 {
+        
+        display: flex;
+        align-self: flex-end;
         margin-left: -7rem;
     }
 
@@ -486,6 +496,11 @@ footer {
         align-items:flex-start;
     }
 
+    .images {
+        display: flex;
+        margin-right: 5%;
+    }
+
     .sub-items {
         display: flex;
         flex-direction: row;
@@ -497,12 +512,14 @@ footer {
         padding: 0;
     }
 
-    .high-hdr, .low-hdr, .low-txt {
+    .low-hdr, .low-txt {
         text-align: left;
         margin: 0;
         padding: 0;
         margin-top: 10%;
     }
+
+
 
     .icons {
         margin: 0;
