@@ -313,7 +313,7 @@ footer {
     }
 
     .image-2 {
-        content: url(/assets/tablet/image-phone-and-keyboard.jpg);
+        content: url(./assets/tablet/image-phone-and-keyboard.jpg);
         width: 100%;
     }
 
@@ -322,7 +322,7 @@ footer {
     }
 
     .image-3 {
-        content: url(/assets/tablet/image-glass-and-keyboard.jpg);
+        content: url(./assets/tablet/image-glass-and-keyboard.jpg);
         width: 100%;
     }
 
