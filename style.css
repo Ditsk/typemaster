@@ -1,0 +1,271 @@
+body {
+    background: #FFFFFF;
+    /* margin: 5%; */
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15%;
+    margin: 5%;
+}
+
+.header-btn {
+    text-decoration: none;
+    border: none;
+    background: #E8EFF2;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+
+    /* identical to box height, or 162% */
+    text-transform: uppercase;
+
+    color: #162542;
+
+    padding: 0.5rem;
+    border-radius: 8px;
+    
+}
+
+.header-btn-div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.main-header {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+
+    /* or 100% */
+    text-transform: uppercase;
+
+    color: #162542;
+
+    margin-bottom: 10%;
+
+    margin: 5%;
+}
+
+.main-text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+    /* or 162% */
+
+    color: #7B8BAD;
+
+    margin-bottom: 10%;
+    margin: 5%;
+}
+
+.main-btn {
+    text-decoration: none;
+    border: none;
+    background: #F16718;
+    border-radius: 8px;
+
+    /*                button text properties             */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+
+    /* identical to box height, or 162% */
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    padding: 0.5rem;
+    
+}
+
+
+.release-txt {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+
+    /* identical to box height, or 162% */
+    text-transform: uppercase;
+
+    color: #7B8BAD;
+    
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.main-btn-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: 5% 5% 15% 5%;
+    
+}
+
+/* .images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+} */
+
+.image-1-div {
+    margin: 5% 0 5% 5%;
+    overflow-x: hidden;
+}
+
+.image-1 {
+    width: 100vw;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.image-2-div {
+    position: relative;
+    margin-left: -2.1rem;
+}
+
+.image-2 {
+    width: 80%;   
+    border-radius: 1rem;    
+}
+
+.image-2-div:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    background-color: #F16718;
+    opacity: 0.75;
+    border-radius: 1rem;
+    mix-blend-mode: multiply;
+    
+}
+
+.image-2 > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.image-3 {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.two-image {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25%;
+}
+
+.items {
+    margin: 5%;
+}
+
+.icons {
+    background-color: #f16718;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+
+    margin: 15% 5% 0 5%;
+}
+
+
+
+.high-hdr {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+
+    /* or 112% */
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #162542;
+
+    margin: 5%;
+}
+
+.low-hdr {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* or 117% */
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #162542;
+    /* margin: 5% 20% 15% 20%; */
+    margin: 10%;
+}
+
+.low-txt {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+    /* or 162% */
+    text-align: center;
+
+    color: #7B8BAD;
+}
+
+.item-1, .item-2, .item-3, .item-4, .item-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25% 5% 10% 5%;
+}
+
+.footer-txt {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+    /* identical to box height, or 162% */
+
+    color: #7B8BAD;
+
+
+}
