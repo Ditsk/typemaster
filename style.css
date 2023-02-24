@@ -333,25 +333,31 @@ footer {
         padding: 0;
     }
 
+    .item-1 > h2 {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .low-hdr, .low-txt {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        margin-top: 10%;
+    }
+
+    .item-1 > p {
+        margin-top: 0;
+        margin-right: 5%;
+    }
+
     .item-1 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         text-align: left;
         margin-bottom: 10%;
-        gap: 8rem;
+        gap: 5rem;
         align-items: center;
-    }
-
-    .item-1 > p, .item-1 > h2 {
-        margin-top: 5%;
-    }
-
-    .high-hdr, .low-hdr, .low-txt {
-        text-align: left;
-        margin: 0;
-        padding: 0;
-        margin-top: 10%;
     }
 
     .sub-items {
@@ -371,9 +377,15 @@ footer {
         margin-top: 15%;
         margin-bottom: 5%;
     }
+
+    .pattern-div1, .pattern-div2 {
+        display: none;
+    }
 }
 
 
+
+/* DESKTOP DESIGN */
 @media screen and (min-width: 996px) {
     header {
         margin: 3rem 12rem 0 15rem;
